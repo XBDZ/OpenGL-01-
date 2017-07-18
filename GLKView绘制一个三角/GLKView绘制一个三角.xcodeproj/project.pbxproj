@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25967221F1D8DFC0007F9A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967211F1D8DFC0007F9A3 /* main.m */; };
+		F25967251F1D8DFC0007F9A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967241F1D8DFC0007F9A3 /* AppDelegate.m */; };
+		F25967281F1D8DFC0007F9A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967271F1D8DFC0007F9A3 /* ViewController.m */; };
+		F259672B1F1D8DFC0007F9A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25967291F1D8DFC0007F9A3 /* Main.storyboard */; };
+		F259672D1F1D8DFC0007F9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F259672C1F1D8DFC0007F9A3 /* Assets.xcassets */; };
+		F25967301F1D8DFC0007F9A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F259672E1F1D8DFC0007F9A3 /* LaunchScreen.storyboard */; };
+		F259673B1F1D8DFC0007F9A3 /* GLKView______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F259673A1F1D8DFC0007F9A3 /* GLKView______Tests.m */; };
+		F25967461F1D8DFC0007F9A3 /* GLKView______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967451F1D8DFC0007F9A3 /* GLKView______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25967371F1D8DFC0007F9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25967151F1D8DFB0007F9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F259671C1F1D8DFB0007F9A3;
+			remoteInfo = "GLKView绘制一个三角";
+		};
+		F25967421F1D8DFC0007F9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25967151F1D8DFB0007F9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F259671C1F1D8DFB0007F9A3;
+			remoteInfo = "GLKView绘制一个三角";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F259671D1F1D8DFC0007F9A3 /* GLKView绘制一个三角.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLKView绘制一个三角.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25967211F1D8DFC0007F9A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25967231F1D8DFC0007F9A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F25967241F1D8DFC0007F9A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F25967261F1D8DFC0007F9A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F25967271F1D8DFC0007F9A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F259672A1F1D8DFC0007F9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F259672C1F1D8DFC0007F9A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F259672F1F1D8DFC0007F9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25967311F1D8DFC0007F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25967361F1D8DFC0007F9A3 /* GLKView绘制一个三角Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLKView绘制一个三角Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F259673A1F1D8DFC0007F9A3 /* GLKView______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GLKView______Tests.m"; sourceTree = "<group>"; };
+		F259673C1F1D8DFC0007F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25967411F1D8DFC0007F9A3 /* GLKView绘制一个三角UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLKView绘制一个三角UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25967451F1D8DFC0007F9A3 /* GLKView______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GLKView______UITests.m"; sourceTree = "<group>"; };
+		F25967471F1D8DFC0007F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F259671A1F1D8DFB0007F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25967331F1D8DFC0007F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259673E1F1D8DFC0007F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25967141F1D8DFB0007F9A3 = {
+			isa = PBXGroup;
+			children = (
+				F259671F1F1D8DFC0007F9A3 /* GLKView绘制一个三角 */,
+				F25967391F1D8DFC0007F9A3 /* GLKView绘制一个三角Tests */,
+				F25967441F1D8DFC0007F9A3 /* GLKView绘制一个三角UITests */,
+				F259671E1F1D8DFC0007F9A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F259671E1F1D8DFC0007F9A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F259671D1F1D8DFC0007F9A3 /* GLKView绘制一个三角.app */,
+				F25967361F1D8DFC0007F9A3 /* GLKView绘制一个三角Tests.xctest */,
+				F25967411F1D8DFC0007F9A3 /* GLKView绘制一个三角UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F259671F1F1D8DFC0007F9A3 /* GLKView绘制一个三角 */ = {
+			isa = PBXGroup;
+			children = (
+				F25967231F1D8DFC0007F9A3 /* AppDelegate.h */,
+				F25967241F1D8DFC0007F9A3 /* AppDelegate.m */,
+				F25967261F1D8DFC0007F9A3 /* ViewController.h */,
+				F25967271F1D8DFC0007F9A3 /* ViewController.m */,
+				F25967291F1D8DFC0007F9A3 /* Main.storyboard */,
+				F259672C1F1D8DFC0007F9A3 /* Assets.xcassets */,
+				F259672E1F1D8DFC0007F9A3 /* LaunchScreen.storyboard */,
+				F25967311F1D8DFC0007F9A3 /* Info.plist */,
+				F25967201F1D8DFC0007F9A3 /* Supporting Files */,
+			);
+			path = "GLKView绘制一个三角";
+			sourceTree = "<group>";
+		};
+		F25967201F1D8DFC0007F9A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25967211F1D8DFC0007F9A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F25967391F1D8DFC0007F9A3 /* GLKView绘制一个三角Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F259673A1F1D8DFC0007F9A3 /* GLKView______Tests.m */,
+				F259673C1F1D8DFC0007F9A3 /* Info.plist */,
+			);
+			path = "GLKView绘制一个三角Tests";
+			sourceTree = "<group>";
+		};
+		F25967441F1D8DFC0007F9A3 /* GLKView绘制一个三角UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F25967451F1D8DFC0007F9A3 /* GLKView______UITests.m */,
+				F25967471F1D8DFC0007F9A3 /* Info.plist */,
+			);
+			path = "GLKView绘制一个三角UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F259671C1F1D8DFB0007F9A3 /* GLKView绘制一个三角 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F259674A1F1D8DFC0007F9A3 /* Build configuration list for PBXNativeTarget "GLKView绘制一个三角" */;
+			buildPhases = (
+				F25967191F1D8DFB0007F9A3 /* Sources */,
+				F259671A1F1D8DFB0007F9A3 /* Frameworks */,
+				F259671B1F1D8DFB0007F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLKView绘制一个三角";
+			productName = "GLKView绘制一个三角";
+			productReference = F259671D1F1D8DFC0007F9A3 /* GLKView绘制一个三角.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25967351F1D8DFC0007F9A3 /* GLKView绘制一个三角Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F259674D1F1D8DFC0007F9A3 /* Build configuration list for PBXNativeTarget "GLKView绘制一个三角Tests" */;
+			buildPhases = (
+				F25967321F1D8DFC0007F9A3 /* Sources */,
+				F25967331F1D8DFC0007F9A3 /* Frameworks */,
+				F25967341F1D8DFC0007F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25967381F1D8DFC0007F9A3 /* PBXTargetDependency */,
+			);
+			name = "GLKView绘制一个三角Tests";
+			productName = "GLKView绘制一个三角Tests";
+			productReference = F25967361F1D8DFC0007F9A3 /* GLKView绘制一个三角Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F25967401F1D8DFC0007F9A3 /* GLKView绘制一个三角UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25967501F1D8DFC0007F9A3 /* Build configuration list for PBXNativeTarget "GLKView绘制一个三角UITests" */;
+			buildPhases = (
+				F259673D1F1D8DFC0007F9A3 /* Sources */,
+				F259673E1F1D8DFC0007F9A3 /* Frameworks */,
+				F259673F1F1D8DFC0007F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25967431F1D8DFC0007F9A3 /* PBXTargetDependency */,
+			);
+			name = "GLKView绘制一个三角UITests";
+			productName = "GLKView绘制一个三角UITests";
+			productReference = F25967411F1D8DFC0007F9A3 /* GLKView绘制一个三角UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25967151F1D8DFB0007F9A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mr Liu";
+				TargetAttributes = {
+					F259671C1F1D8DFB0007F9A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F25967351F1D8DFC0007F9A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F259671C1F1D8DFB0007F9A3;
+					};
+					F25967401F1D8DFC0007F9A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F259671C1F1D8DFB0007F9A3;
+					};
+				};
+			};
+			buildConfigurationList = F25967181F1D8DFB0007F9A3 /* Build configuration list for PBXProject "GLKView绘制一个三角" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25967141F1D8DFB0007F9A3;
+			productRefGroup = F259671E1F1D8DFC0007F9A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F259671C1F1D8DFB0007F9A3 /* GLKView绘制一个三角 */,
+				F25967351F1D8DFC0007F9A3 /* GLKView绘制一个三角Tests */,
+				F25967401F1D8DFC0007F9A3 /* GLKView绘制一个三角UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F259671B1F1D8DFB0007F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25967301F1D8DFC0007F9A3 /* LaunchScreen.storyboard in Resources */,
+				F259672D1F1D8DFC0007F9A3 /* Assets.xcassets in Resources */,
+				F259672B1F1D8DFC0007F9A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25967341F1D8DFC0007F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259673F1F1D8DFC0007F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25967191F1D8DFB0007F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25967281F1D8DFC0007F9A3 /* ViewController.m in Sources */,
+				F25967251F1D8DFC0007F9A3 /* AppDelegate.m in Sources */,
+				F25967221F1D8DFC0007F9A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25967321F1D8DFC0007F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259673B1F1D8DFC0007F9A3 /* GLKView______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259673D1F1D8DFC0007F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25967461F1D8DFC0007F9A3 /* GLKView______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25967381F1D8DFC0007F9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F259671C1F1D8DFB0007F9A3 /* GLKView绘制一个三角 */;
+			targetProxy = F25967371F1D8DFC0007F9A3 /* PBXContainerItemProxy */;
+		};
+		F25967431F1D8DFC0007F9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F259671C1F1D8DFB0007F9A3 /* GLKView绘制一个三角 */;
+			targetProxy = F25967421F1D8DFC0007F9A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25967291F1D8DFC0007F9A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F259672A1F1D8DFC0007F9A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F259672E1F1D8DFC0007F9A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F259672F1F1D8DFC0007F9A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25967481F1D8DFC0007F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25967491F1D8DFC0007F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F259674B1F1D8DFC0007F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GLKView绘制一个三角/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLKView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F259674C1F1D8DFC0007F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GLKView绘制一个三角/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLKView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F259674E1F1D8DFC0007F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GLKView绘制一个三角Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLKView------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLKView绘制一个三角.app/GLKView绘制一个三角";
+			};
+			name = Debug;
+		};
+		F259674F1F1D8DFC0007F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GLKView绘制一个三角Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLKView------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLKView绘制一个三角.app/GLKView绘制一个三角";
+			};
+			name = Release;
+		};
+		F25967511F1D8DFC0007F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GLKView绘制一个三角UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLKView------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GLKView绘制一个三角";
+			};
+			name = Debug;
+		};
+		F25967521F1D8DFC0007F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GLKView绘制一个三角UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLKView------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GLKView绘制一个三角";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25967181F1D8DFB0007F9A3 /* Build configuration list for PBXProject "GLKView绘制一个三角" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25967481F1D8DFC0007F9A3 /* Debug */,
+				F25967491F1D8DFC0007F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F259674A1F1D8DFC0007F9A3 /* Build configuration list for PBXNativeTarget "GLKView绘制一个三角" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F259674B1F1D8DFC0007F9A3 /* Debug */,
+				F259674C1F1D8DFC0007F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F259674D1F1D8DFC0007F9A3 /* Build configuration list for PBXNativeTarget "GLKView绘制一个三角Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F259674E1F1D8DFC0007F9A3 /* Debug */,
+				F259674F1F1D8DFC0007F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F25967501F1D8DFC0007F9A3 /* Build configuration list for PBXNativeTarget "GLKView绘制一个三角UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25967511F1D8DFC0007F9A3 /* Debug */,
+				F25967521F1D8DFC0007F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25967151F1D8DFB0007F9A3 /* Project object */;
+}
