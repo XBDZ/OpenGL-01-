@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25967611F1D91ED0007F9A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967601F1D91ED0007F9A3 /* main.m */; };
+		F25967641F1D91ED0007F9A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967631F1D91ED0007F9A3 /* AppDelegate.m */; };
+		F25967671F1D91ED0007F9A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967661F1D91ED0007F9A3 /* ViewController.m */; };
+		F259676A1F1D91ED0007F9A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25967681F1D91ED0007F9A3 /* Main.storyboard */; };
+		F259676C1F1D91ED0007F9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F259676B1F1D91ED0007F9A3 /* Assets.xcassets */; };
+		F259676F1F1D91ED0007F9A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F259676D1F1D91ED0007F9A3 /* LaunchScreen.storyboard */; };
+		F259677A1F1D91ED0007F9A3 /* GLView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967791F1D91ED0007F9A3 /* GLView____Tests.m */; };
+		F25967851F1D91ED0007F9A3 /* GLView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967841F1D91ED0007F9A3 /* GLView____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25967761F1D91ED0007F9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25967541F1D91ED0007F9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F259675B1F1D91ED0007F9A3;
+			remoteInfo = "GLView绘制矩形";
+		};
+		F25967811F1D91ED0007F9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25967541F1D91ED0007F9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F259675B1F1D91ED0007F9A3;
+			remoteInfo = "GLView绘制矩形";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F259675C1F1D91ED0007F9A3 /* GLView绘制矩形.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLView绘制矩形.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25967601F1D91ED0007F9A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25967621F1D91ED0007F9A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F25967631F1D91ED0007F9A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F25967651F1D91ED0007F9A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F25967661F1D91ED0007F9A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F25967691F1D91ED0007F9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F259676B1F1D91ED0007F9A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F259676E1F1D91ED0007F9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25967701F1D91ED0007F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25967751F1D91ED0007F9A3 /* GLView绘制矩形Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLView绘制矩形Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25967791F1D91ED0007F9A3 /* GLView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GLView____Tests.m"; sourceTree = "<group>"; };
+		F259677B1F1D91ED0007F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25967801F1D91ED0007F9A3 /* GLView绘制矩形UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLView绘制矩形UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25967841F1D91ED0007F9A3 /* GLView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GLView____UITests.m"; sourceTree = "<group>"; };
+		F25967861F1D91ED0007F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25967591F1D91ED0007F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25967721F1D91ED0007F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259677D1F1D91ED0007F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25967531F1D91ED0007F9A3 = {
+			isa = PBXGroup;
+			children = (
+				F259675E1F1D91ED0007F9A3 /* GLView绘制矩形 */,
+				F25967781F1D91ED0007F9A3 /* GLView绘制矩形Tests */,
+				F25967831F1D91ED0007F9A3 /* GLView绘制矩形UITests */,
+				F259675D1F1D91ED0007F9A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F259675D1F1D91ED0007F9A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F259675C1F1D91ED0007F9A3 /* GLView绘制矩形.app */,
+				F25967751F1D91ED0007F9A3 /* GLView绘制矩形Tests.xctest */,
+				F25967801F1D91ED0007F9A3 /* GLView绘制矩形UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F259675E1F1D91ED0007F9A3 /* GLView绘制矩形 */ = {
+			isa = PBXGroup;
+			children = (
+				F25967621F1D91ED0007F9A3 /* AppDelegate.h */,
+				F25967631F1D91ED0007F9A3 /* AppDelegate.m */,
+				F25967651F1D91ED0007F9A3 /* ViewController.h */,
+				F25967661F1D91ED0007F9A3 /* ViewController.m */,
+				F25967681F1D91ED0007F9A3 /* Main.storyboard */,
+				F259676B1F1D91ED0007F9A3 /* Assets.xcassets */,
+				F259676D1F1D91ED0007F9A3 /* LaunchScreen.storyboard */,
+				F25967701F1D91ED0007F9A3 /* Info.plist */,
+				F259675F1F1D91ED0007F9A3 /* Supporting Files */,
+			);
+			path = "GLView绘制矩形";
+			sourceTree = "<group>";
+		};
+		F259675F1F1D91ED0007F9A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25967601F1D91ED0007F9A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F25967781F1D91ED0007F9A3 /* GLView绘制矩形Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F25967791F1D91ED0007F9A3 /* GLView____Tests.m */,
+				F259677B1F1D91ED0007F9A3 /* Info.plist */,
+			);
+			path = "GLView绘制矩形Tests";
+			sourceTree = "<group>";
+		};
+		F25967831F1D91ED0007F9A3 /* GLView绘制矩形UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F25967841F1D91ED0007F9A3 /* GLView____UITests.m */,
+				F25967861F1D91ED0007F9A3 /* Info.plist */,
+			);
+			path = "GLView绘制矩形UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F259675B1F1D91ED0007F9A3 /* GLView绘制矩形 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25967891F1D91ED0007F9A3 /* Build configuration list for PBXNativeTarget "GLView绘制矩形" */;
+			buildPhases = (
+				F25967581F1D91ED0007F9A3 /* Sources */,
+				F25967591F1D91ED0007F9A3 /* Frameworks */,
+				F259675A1F1D91ED0007F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLView绘制矩形";
+			productName = "GLView绘制矩形";
+			productReference = F259675C1F1D91ED0007F9A3 /* GLView绘制矩形.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25967741F1D91ED0007F9A3 /* GLView绘制矩形Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F259678C1F1D91ED0007F9A3 /* Build configuration list for PBXNativeTarget "GLView绘制矩形Tests" */;
+			buildPhases = (
+				F25967711F1D91ED0007F9A3 /* Sources */,
+				F25967721F1D91ED0007F9A3 /* Frameworks */,
+				F25967731F1D91ED0007F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25967771F1D91ED0007F9A3 /* PBXTargetDependency */,
+			);
+			name = "GLView绘制矩形Tests";
+			productName = "GLView绘制矩形Tests";
+			productReference = F25967751F1D91ED0007F9A3 /* GLView绘制矩形Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F259677F1F1D91ED0007F9A3 /* GLView绘制矩形UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F259678F1F1D91ED0007F9A3 /* Build configuration list for PBXNativeTarget "GLView绘制矩形UITests" */;
+			buildPhases = (
+				F259677C1F1D91ED0007F9A3 /* Sources */,
+				F259677D1F1D91ED0007F9A3 /* Frameworks */,
+				F259677E1F1D91ED0007F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25967821F1D91ED0007F9A3 /* PBXTargetDependency */,
+			);
+			name = "GLView绘制矩形UITests";
+			productName = "GLView绘制矩形UITests";
+			productReference = F25967801F1D91ED0007F9A3 /* GLView绘制矩形UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25967541F1D91ED0007F9A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mr Liu";
+				TargetAttributes = {
+					F259675B1F1D91ED0007F9A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F25967741F1D91ED0007F9A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F259675B1F1D91ED0007F9A3;
+					};
+					F259677F1F1D91ED0007F9A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F259675B1F1D91ED0007F9A3;
+					};
+				};
+			};
+			buildConfigurationList = F25967571F1D91ED0007F9A3 /* Build configuration list for PBXProject "GLView绘制矩形" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25967531F1D91ED0007F9A3;
+			productRefGroup = F259675D1F1D91ED0007F9A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F259675B1F1D91ED0007F9A3 /* GLView绘制矩形 */,
+				F25967741F1D91ED0007F9A3 /* GLView绘制矩形Tests */,
+				F259677F1F1D91ED0007F9A3 /* GLView绘制矩形UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F259675A1F1D91ED0007F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259676F1F1D91ED0007F9A3 /* LaunchScreen.storyboard in Resources */,
+				F259676C1F1D91ED0007F9A3 /* Assets.xcassets in Resources */,
+				F259676A1F1D91ED0007F9A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25967731F1D91ED0007F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259677E1F1D91ED0007F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25967581F1D91ED0007F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25967671F1D91ED0007F9A3 /* ViewController.m in Sources */,
+				F25967641F1D91ED0007F9A3 /* AppDelegate.m in Sources */,
+				F25967611F1D91ED0007F9A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25967711F1D91ED0007F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259677A1F1D91ED0007F9A3 /* GLView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259677C1F1D91ED0007F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25967851F1D91ED0007F9A3 /* GLView____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25967771F1D91ED0007F9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F259675B1F1D91ED0007F9A3 /* GLView绘制矩形 */;
+			targetProxy = F25967761F1D91ED0007F9A3 /* PBXContainerItemProxy */;
+		};
+		F25967821F1D91ED0007F9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F259675B1F1D91ED0007F9A3 /* GLView绘制矩形 */;
+			targetProxy = F25967811F1D91ED0007F9A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25967681F1D91ED0007F9A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25967691F1D91ED0007F9A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F259676D1F1D91ED0007F9A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F259676E1F1D91ED0007F9A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25967871F1D91ED0007F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25967881F1D91ED0007F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F259678A1F1D91ED0007F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GLView绘制矩形/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F259678B1F1D91ED0007F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GLView绘制矩形/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F259678D1F1D91ED0007F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GLView绘制矩形Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLView绘制矩形.app/GLView绘制矩形";
+			};
+			name = Debug;
+		};
+		F259678E1F1D91ED0007F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GLView绘制矩形Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLView绘制矩形.app/GLView绘制矩形";
+			};
+			name = Release;
+		};
+		F25967901F1D91ED0007F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GLView绘制矩形UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GLView绘制矩形";
+			};
+			name = Debug;
+		};
+		F25967911F1D91ED0007F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GLView绘制矩形UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.GLView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GLView绘制矩形";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25967571F1D91ED0007F9A3 /* Build configuration list for PBXProject "GLView绘制矩形" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25967871F1D91ED0007F9A3 /* Debug */,
+				F25967881F1D91ED0007F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25967891F1D91ED0007F9A3 /* Build configuration list for PBXNativeTarget "GLView绘制矩形" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F259678A1F1D91ED0007F9A3 /* Debug */,
+				F259678B1F1D91ED0007F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F259678C1F1D91ED0007F9A3 /* Build configuration list for PBXNativeTarget "GLView绘制矩形Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F259678D1F1D91ED0007F9A3 /* Debug */,
+				F259678E1F1D91ED0007F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F259678F1F1D91ED0007F9A3 /* Build configuration list for PBXNativeTarget "GLView绘制矩形UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25967901F1D91ED0007F9A3 /* Debug */,
+				F25967911F1D91ED0007F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25967541F1D91ED0007F9A3 /* Project object */;
+}
