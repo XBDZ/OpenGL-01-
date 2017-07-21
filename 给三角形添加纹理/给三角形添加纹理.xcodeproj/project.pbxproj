@@ -7,72 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2CD3DB11F1F400A0052AAF0 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2CD3DB01F1F400A0052AAF0 /* leaves.gif */; };
-		F2F2AE191F1EE84D0034AE60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2AE181F1EE84D0034AE60 /* main.m */; };
-		F2F2AE1C1F1EE84D0034AE60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2AE1B1F1EE84D0034AE60 /* AppDelegate.m */; };
-		F2F2AE1F1F1EE84D0034AE60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2AE1E1F1EE84D0034AE60 /* ViewController.m */; };
-		F2F2AE221F1EE84D0034AE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F2AE201F1EE84D0034AE60 /* Main.storyboard */; };
-		F2F2AE241F1EE84D0034AE60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F2AE231F1EE84D0034AE60 /* Assets.xcassets */; };
-		F2F2AE271F1EE84D0034AE60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F2AE251F1EE84D0034AE60 /* LaunchScreen.storyboard */; };
-		F2F2AE321F1EE84D0034AE60 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2AE311F1EE84D0034AE60 /* ________Tests.m */; };
-		F2F2AE3D1F1EE84D0034AE60 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2AE3C1F1EE84D0034AE60 /* ________UITests.m */; };
-		F2F2AE501F1EF34C0034AE60 /* for_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2F2AE4F1F1EF34C0034AE60 /* for_test.jpg */; };
+		F2C9F5A51F21A7C400D88AE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C9F5A41F21A7C400D88AE9 /* main.m */; };
+		F2C9F5A81F21A7C400D88AE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C9F5A71F21A7C400D88AE9 /* AppDelegate.m */; };
+		F2C9F5AB1F21A7C400D88AE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C9F5AA1F21A7C400D88AE9 /* ViewController.m */; };
+		F2C9F5AE1F21A7C400D88AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C9F5AC1F21A7C400D88AE9 /* Main.storyboard */; };
+		F2C9F5B01F21A7C400D88AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C9F5AF1F21A7C400D88AE9 /* Assets.xcassets */; };
+		F2C9F5B31F21A7C400D88AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C9F5B11F21A7C400D88AE9 /* LaunchScreen.storyboard */; };
+		F2C9F5BE1F21A7C400D88AE9 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C9F5BD1F21A7C400D88AE9 /* ________Tests.m */; };
+		F2C9F5C91F21A7C400D88AE9 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C9F5C81F21A7C400D88AE9 /* ________UITests.m */; };
+		F2C9F5D81F21A81100D88AE9 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2C9F5D61F21A81100D88AE9 /* leaves.gif */; };
+		F2C9F5D91F21A81100D88AE9 /* for_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2C9F5D71F21A81100D88AE9 /* for_test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F2F2AE2E1F1EE84D0034AE60 /* PBXContainerItemProxy */ = {
+		F2C9F5BA1F21A7C400D88AE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F2F2AE0C1F1EE84D0034AE60 /* Project object */;
+			containerPortal = F2C9F5981F21A7C400D88AE9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F2F2AE131F1EE84D0034AE60;
+			remoteGlobalIDString = F2C9F59F1F21A7C400D88AE9;
 			remoteInfo = "给三角形添加纹理";
 		};
-		F2F2AE391F1EE84D0034AE60 /* PBXContainerItemProxy */ = {
+		F2C9F5C51F21A7C400D88AE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F2F2AE0C1F1EE84D0034AE60 /* Project object */;
+			containerPortal = F2C9F5981F21A7C400D88AE9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F2F2AE131F1EE84D0034AE60;
+			remoteGlobalIDString = F2C9F59F1F21A7C400D88AE9;
 			remoteInfo = "给三角形添加纹理";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F2CD3DB01F1F400A0052AAF0 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
-		F2F2AE141F1EE84D0034AE60 /* 给三角形添加纹理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "给三角形添加纹理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2F2AE181F1EE84D0034AE60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2F2AE1A1F1EE84D0034AE60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F2F2AE1B1F1EE84D0034AE60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2F2AE1D1F1EE84D0034AE60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2F2AE1E1F1EE84D0034AE60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F2F2AE211F1EE84D0034AE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F2F2AE231F1EE84D0034AE60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2F2AE261F1EE84D0034AE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F2F2AE281F1EE84D0034AE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2F2AE2D1F1EE84D0034AE60 /* 给三角形添加纹理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给三角形添加纹理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2F2AE311F1EE84D0034AE60 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
-		F2F2AE331F1EE84D0034AE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2F2AE381F1EE84D0034AE60 /* 给三角形添加纹理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给三角形添加纹理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2F2AE3C1F1EE84D0034AE60 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
-		F2F2AE3E1F1EE84D0034AE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2F2AE4F1F1EF34C0034AE60 /* for_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = for_test.jpg; sourceTree = "<group>"; };
+		F2C9F5A01F21A7C400D88AE9 /* 给三角形添加纹理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "给三角形添加纹理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C9F5A41F21A7C400D88AE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2C9F5A61F21A7C400D88AE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2C9F5A71F21A7C400D88AE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2C9F5A91F21A7C400D88AE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2C9F5AA1F21A7C400D88AE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2C9F5AD1F21A7C400D88AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2C9F5AF1F21A7C400D88AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C9F5B21F21A7C400D88AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2C9F5B41F21A7C400D88AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C9F5B91F21A7C400D88AE9 /* 给三角形添加纹理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给三角形添加纹理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C9F5BD1F21A7C400D88AE9 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		F2C9F5BF1F21A7C400D88AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C9F5C41F21A7C400D88AE9 /* 给三角形添加纹理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给三角形添加纹理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C9F5C81F21A7C400D88AE9 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		F2C9F5CA1F21A7C400D88AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C9F5D61F21A81100D88AE9 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
+		F2C9F5D71F21A81100D88AE9 /* for_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = for_test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F2F2AE111F1EE84D0034AE60 /* Frameworks */ = {
+		F2C9F59D1F21A7C400D88AE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F2AE2A1F1EE84D0034AE60 /* Frameworks */ = {
+		F2C9F5B61F21A7C400D88AE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F2AE351F1EE84D0034AE60 /* Frameworks */ = {
+		F2C9F5C11F21A7C400D88AE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,66 +82,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F2F2AE0B1F1EE84D0034AE60 = {
+		F2C9F5971F21A7C400D88AE9 = {
 			isa = PBXGroup;
 			children = (
-				F2F2AE161F1EE84D0034AE60 /* 给三角形添加纹理 */,
-				F2F2AE301F1EE84D0034AE60 /* 给三角形添加纹理Tests */,
-				F2F2AE3B1F1EE84D0034AE60 /* 给三角形添加纹理UITests */,
-				F2F2AE151F1EE84D0034AE60 /* Products */,
+				F2C9F5A21F21A7C400D88AE9 /* 给三角形添加纹理 */,
+				F2C9F5BC1F21A7C400D88AE9 /* 给三角形添加纹理Tests */,
+				F2C9F5C71F21A7C400D88AE9 /* 给三角形添加纹理UITests */,
+				F2C9F5A11F21A7C400D88AE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F2F2AE151F1EE84D0034AE60 /* Products */ = {
+		F2C9F5A11F21A7C400D88AE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2F2AE141F1EE84D0034AE60 /* 给三角形添加纹理.app */,
-				F2F2AE2D1F1EE84D0034AE60 /* 给三角形添加纹理Tests.xctest */,
-				F2F2AE381F1EE84D0034AE60 /* 给三角形添加纹理UITests.xctest */,
+				F2C9F5A01F21A7C400D88AE9 /* 给三角形添加纹理.app */,
+				F2C9F5B91F21A7C400D88AE9 /* 给三角形添加纹理Tests.xctest */,
+				F2C9F5C41F21A7C400D88AE9 /* 给三角形添加纹理UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2F2AE161F1EE84D0034AE60 /* 给三角形添加纹理 */ = {
+		F2C9F5A21F21A7C400D88AE9 /* 给三角形添加纹理 */ = {
 			isa = PBXGroup;
 			children = (
-				F2CD3DB01F1F400A0052AAF0 /* leaves.gif */,
-				F2F2AE4F1F1EF34C0034AE60 /* for_test.jpg */,
-				F2F2AE1A1F1EE84D0034AE60 /* AppDelegate.h */,
-				F2F2AE1B1F1EE84D0034AE60 /* AppDelegate.m */,
-				F2F2AE1D1F1EE84D0034AE60 /* ViewController.h */,
-				F2F2AE1E1F1EE84D0034AE60 /* ViewController.m */,
-				F2F2AE201F1EE84D0034AE60 /* Main.storyboard */,
-				F2F2AE231F1EE84D0034AE60 /* Assets.xcassets */,
-				F2F2AE251F1EE84D0034AE60 /* LaunchScreen.storyboard */,
-				F2F2AE281F1EE84D0034AE60 /* Info.plist */,
-				F2F2AE171F1EE84D0034AE60 /* Supporting Files */,
+				F2C9F5D61F21A81100D88AE9 /* leaves.gif */,
+				F2C9F5D71F21A81100D88AE9 /* for_test.jpg */,
+				F2C9F5A61F21A7C400D88AE9 /* AppDelegate.h */,
+				F2C9F5A71F21A7C400D88AE9 /* AppDelegate.m */,
+				F2C9F5A91F21A7C400D88AE9 /* ViewController.h */,
+				F2C9F5AA1F21A7C400D88AE9 /* ViewController.m */,
+				F2C9F5AC1F21A7C400D88AE9 /* Main.storyboard */,
+				F2C9F5AF1F21A7C400D88AE9 /* Assets.xcassets */,
+				F2C9F5B11F21A7C400D88AE9 /* LaunchScreen.storyboard */,
+				F2C9F5B41F21A7C400D88AE9 /* Info.plist */,
+				F2C9F5A31F21A7C400D88AE9 /* Supporting Files */,
 			);
 			path = "给三角形添加纹理";
 			sourceTree = "<group>";
 		};
-		F2F2AE171F1EE84D0034AE60 /* Supporting Files */ = {
+		F2C9F5A31F21A7C400D88AE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2F2AE181F1EE84D0034AE60 /* main.m */,
+				F2C9F5A41F21A7C400D88AE9 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F2F2AE301F1EE84D0034AE60 /* 给三角形添加纹理Tests */ = {
+		F2C9F5BC1F21A7C400D88AE9 /* 给三角形添加纹理Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F2F2AE311F1EE84D0034AE60 /* ________Tests.m */,
-				F2F2AE331F1EE84D0034AE60 /* Info.plist */,
+				F2C9F5BD1F21A7C400D88AE9 /* ________Tests.m */,
+				F2C9F5BF1F21A7C400D88AE9 /* Info.plist */,
 			);
 			path = "给三角形添加纹理Tests";
 			sourceTree = "<group>";
 		};
-		F2F2AE3B1F1EE84D0034AE60 /* 给三角形添加纹理UITests */ = {
+		F2C9F5C71F21A7C400D88AE9 /* 给三角形添加纹理UITests */ = {
 			isa = PBXGroup;
 			children = (
-				F2F2AE3C1F1EE84D0034AE60 /* ________UITests.m */,
-				F2F2AE3E1F1EE84D0034AE60 /* Info.plist */,
+				F2C9F5C81F21A7C400D88AE9 /* ________UITests.m */,
+				F2C9F5CA1F21A7C400D88AE9 /* Info.plist */,
 			);
 			path = "给三角形添加纹理UITests";
 			sourceTree = "<group>";
@@ -149,13 +149,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2F2AE131F1EE84D0034AE60 /* 给三角形添加纹理 */ = {
+		F2C9F59F1F21A7C400D88AE9 /* 给三角形添加纹理 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2F2AE411F1EE84D0034AE60 /* Build configuration list for PBXNativeTarget "给三角形添加纹理" */;
+			buildConfigurationList = F2C9F5CD1F21A7C400D88AE9 /* Build configuration list for PBXNativeTarget "给三角形添加纹理" */;
 			buildPhases = (
-				F2F2AE101F1EE84D0034AE60 /* Sources */,
-				F2F2AE111F1EE84D0034AE60 /* Frameworks */,
-				F2F2AE121F1EE84D0034AE60 /* Resources */,
+				F2C9F59C1F21A7C400D88AE9 /* Sources */,
+				F2C9F59D1F21A7C400D88AE9 /* Frameworks */,
+				F2C9F59E1F21A7C400D88AE9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -163,71 +163,71 @@
 			);
 			name = "给三角形添加纹理";
 			productName = "给三角形添加纹理";
-			productReference = F2F2AE141F1EE84D0034AE60 /* 给三角形添加纹理.app */;
+			productReference = F2C9F5A01F21A7C400D88AE9 /* 给三角形添加纹理.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F2F2AE2C1F1EE84D0034AE60 /* 给三角形添加纹理Tests */ = {
+		F2C9F5B81F21A7C400D88AE9 /* 给三角形添加纹理Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2F2AE441F1EE84D0034AE60 /* Build configuration list for PBXNativeTarget "给三角形添加纹理Tests" */;
+			buildConfigurationList = F2C9F5D01F21A7C400D88AE9 /* Build configuration list for PBXNativeTarget "给三角形添加纹理Tests" */;
 			buildPhases = (
-				F2F2AE291F1EE84D0034AE60 /* Sources */,
-				F2F2AE2A1F1EE84D0034AE60 /* Frameworks */,
-				F2F2AE2B1F1EE84D0034AE60 /* Resources */,
+				F2C9F5B51F21A7C400D88AE9 /* Sources */,
+				F2C9F5B61F21A7C400D88AE9 /* Frameworks */,
+				F2C9F5B71F21A7C400D88AE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F2F2AE2F1F1EE84D0034AE60 /* PBXTargetDependency */,
+				F2C9F5BB1F21A7C400D88AE9 /* PBXTargetDependency */,
 			);
 			name = "给三角形添加纹理Tests";
 			productName = "给三角形添加纹理Tests";
-			productReference = F2F2AE2D1F1EE84D0034AE60 /* 给三角形添加纹理Tests.xctest */;
+			productReference = F2C9F5B91F21A7C400D88AE9 /* 给三角形添加纹理Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F2F2AE371F1EE84D0034AE60 /* 给三角形添加纹理UITests */ = {
+		F2C9F5C31F21A7C400D88AE9 /* 给三角形添加纹理UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2F2AE471F1EE84D0034AE60 /* Build configuration list for PBXNativeTarget "给三角形添加纹理UITests" */;
+			buildConfigurationList = F2C9F5D31F21A7C400D88AE9 /* Build configuration list for PBXNativeTarget "给三角形添加纹理UITests" */;
 			buildPhases = (
-				F2F2AE341F1EE84D0034AE60 /* Sources */,
-				F2F2AE351F1EE84D0034AE60 /* Frameworks */,
-				F2F2AE361F1EE84D0034AE60 /* Resources */,
+				F2C9F5C01F21A7C400D88AE9 /* Sources */,
+				F2C9F5C11F21A7C400D88AE9 /* Frameworks */,
+				F2C9F5C21F21A7C400D88AE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F2F2AE3A1F1EE84D0034AE60 /* PBXTargetDependency */,
+				F2C9F5C61F21A7C400D88AE9 /* PBXTargetDependency */,
 			);
 			name = "给三角形添加纹理UITests";
 			productName = "给三角形添加纹理UITests";
-			productReference = F2F2AE381F1EE84D0034AE60 /* 给三角形添加纹理UITests.xctest */;
+			productReference = F2C9F5C41F21A7C400D88AE9 /* 给三角形添加纹理UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F2F2AE0C1F1EE84D0034AE60 /* Project object */ = {
+		F2C9F5981F21A7C400D88AE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Mr Liu";
 				TargetAttributes = {
-					F2F2AE131F1EE84D0034AE60 = {
+					F2C9F59F1F21A7C400D88AE9 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
-					F2F2AE2C1F1EE84D0034AE60 = {
+					F2C9F5B81F21A7C400D88AE9 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F2F2AE131F1EE84D0034AE60;
+						TestTargetID = F2C9F59F1F21A7C400D88AE9;
 					};
-					F2F2AE371F1EE84D0034AE60 = {
+					F2C9F5C31F21A7C400D88AE9 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F2F2AE131F1EE84D0034AE60;
+						TestTargetID = F2C9F59F1F21A7C400D88AE9;
 					};
 				};
 			};
-			buildConfigurationList = F2F2AE0F1F1EE84D0034AE60 /* Build configuration list for PBXProject "给三角形添加纹理" */;
+			buildConfigurationList = F2C9F59B1F21A7C400D88AE9 /* Build configuration list for PBXProject "给三角形添加纹理" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,39 +235,39 @@
 				en,
 				Base,
 			);
-			mainGroup = F2F2AE0B1F1EE84D0034AE60;
-			productRefGroup = F2F2AE151F1EE84D0034AE60 /* Products */;
+			mainGroup = F2C9F5971F21A7C400D88AE9;
+			productRefGroup = F2C9F5A11F21A7C400D88AE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2F2AE131F1EE84D0034AE60 /* 给三角形添加纹理 */,
-				F2F2AE2C1F1EE84D0034AE60 /* 给三角形添加纹理Tests */,
-				F2F2AE371F1EE84D0034AE60 /* 给三角形添加纹理UITests */,
+				F2C9F59F1F21A7C400D88AE9 /* 给三角形添加纹理 */,
+				F2C9F5B81F21A7C400D88AE9 /* 给三角形添加纹理Tests */,
+				F2C9F5C31F21A7C400D88AE9 /* 给三角形添加纹理UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F2F2AE121F1EE84D0034AE60 /* Resources */ = {
+		F2C9F59E1F21A7C400D88AE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2F2AE271F1EE84D0034AE60 /* LaunchScreen.storyboard in Resources */,
-				F2CD3DB11F1F400A0052AAF0 /* leaves.gif in Resources */,
-				F2F2AE501F1EF34C0034AE60 /* for_test.jpg in Resources */,
-				F2F2AE241F1EE84D0034AE60 /* Assets.xcassets in Resources */,
-				F2F2AE221F1EE84D0034AE60 /* Main.storyboard in Resources */,
+				F2C9F5B31F21A7C400D88AE9 /* LaunchScreen.storyboard in Resources */,
+				F2C9F5D91F21A81100D88AE9 /* for_test.jpg in Resources */,
+				F2C9F5B01F21A7C400D88AE9 /* Assets.xcassets in Resources */,
+				F2C9F5D81F21A81100D88AE9 /* leaves.gif in Resources */,
+				F2C9F5AE1F21A7C400D88AE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F2AE2B1F1EE84D0034AE60 /* Resources */ = {
+		F2C9F5B71F21A7C400D88AE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F2AE361F1EE84D0034AE60 /* Resources */ = {
+		F2C9F5C21F21A7C400D88AE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,60 +277,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F2F2AE101F1EE84D0034AE60 /* Sources */ = {
+		F2C9F59C1F21A7C400D88AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2F2AE1F1F1EE84D0034AE60 /* ViewController.m in Sources */,
-				F2F2AE1C1F1EE84D0034AE60 /* AppDelegate.m in Sources */,
-				F2F2AE191F1EE84D0034AE60 /* main.m in Sources */,
+				F2C9F5AB1F21A7C400D88AE9 /* ViewController.m in Sources */,
+				F2C9F5A81F21A7C400D88AE9 /* AppDelegate.m in Sources */,
+				F2C9F5A51F21A7C400D88AE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F2AE291F1EE84D0034AE60 /* Sources */ = {
+		F2C9F5B51F21A7C400D88AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2F2AE321F1EE84D0034AE60 /* ________Tests.m in Sources */,
+				F2C9F5BE1F21A7C400D88AE9 /* ________Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F2AE341F1EE84D0034AE60 /* Sources */ = {
+		F2C9F5C01F21A7C400D88AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2F2AE3D1F1EE84D0034AE60 /* ________UITests.m in Sources */,
+				F2C9F5C91F21A7C400D88AE9 /* ________UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F2F2AE2F1F1EE84D0034AE60 /* PBXTargetDependency */ = {
+		F2C9F5BB1F21A7C400D88AE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2F2AE131F1EE84D0034AE60 /* 给三角形添加纹理 */;
-			targetProxy = F2F2AE2E1F1EE84D0034AE60 /* PBXContainerItemProxy */;
+			target = F2C9F59F1F21A7C400D88AE9 /* 给三角形添加纹理 */;
+			targetProxy = F2C9F5BA1F21A7C400D88AE9 /* PBXContainerItemProxy */;
 		};
-		F2F2AE3A1F1EE84D0034AE60 /* PBXTargetDependency */ = {
+		F2C9F5C61F21A7C400D88AE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2F2AE131F1EE84D0034AE60 /* 给三角形添加纹理 */;
-			targetProxy = F2F2AE391F1EE84D0034AE60 /* PBXContainerItemProxy */;
+			target = F2C9F59F1F21A7C400D88AE9 /* 给三角形添加纹理 */;
+			targetProxy = F2C9F5C51F21A7C400D88AE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2F2AE201F1EE84D0034AE60 /* Main.storyboard */ = {
+		F2C9F5AC1F21A7C400D88AE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F2F2AE211F1EE84D0034AE60 /* Base */,
+				F2C9F5AD1F21A7C400D88AE9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F2F2AE251F1EE84D0034AE60 /* LaunchScreen.storyboard */ = {
+		F2C9F5B11F21A7C400D88AE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F2F2AE261F1EE84D0034AE60 /* Base */,
+				F2C9F5B21F21A7C400D88AE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -338,7 +338,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F2F2AE3F1F1EE84D0034AE60 /* Debug */ = {
+		F2C9F5CB1F21A7C400D88AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,7 +386,7 @@
 			};
 			name = Debug;
 		};
-		F2F2AE401F1EE84D0034AE60 /* Release */ = {
+		F2C9F5CC1F21A7C400D88AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,7 +428,7 @@
 			};
 			name = Release;
 		};
-		F2F2AE421F1EE84D0034AE60 /* Debug */ = {
+		F2C9F5CE1F21A7C400D88AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -439,7 +439,7 @@
 			};
 			name = Debug;
 		};
-		F2F2AE431F1EE84D0034AE60 /* Release */ = {
+		F2C9F5CF1F21A7C400D88AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -450,7 +450,7 @@
 			};
 			name = Release;
 		};
-		F2F2AE451F1EE84D0034AE60 /* Debug */ = {
+		F2C9F5D11F21A7C400D88AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		F2F2AE461F1EE84D0034AE60 /* Release */ = {
+		F2C9F5D21F21A7C400D88AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,7 +474,7 @@
 			};
 			name = Release;
 		};
-		F2F2AE481F1EE84D0034AE60 /* Debug */ = {
+		F2C9F5D41F21A7C400D88AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "给三角形添加纹理UITests/Info.plist";
@@ -485,7 +485,7 @@
 			};
 			name = Debug;
 		};
-		F2F2AE491F1EE84D0034AE60 /* Release */ = {
+		F2C9F5D51F21A7C400D88AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "给三角形添加纹理UITests/Info.plist";
@@ -499,43 +499,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2F2AE0F1F1EE84D0034AE60 /* Build configuration list for PBXProject "给三角形添加纹理" */ = {
+		F2C9F59B1F21A7C400D88AE9 /* Build configuration list for PBXProject "给三角形添加纹理" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2F2AE3F1F1EE84D0034AE60 /* Debug */,
-				F2F2AE401F1EE84D0034AE60 /* Release */,
+				F2C9F5CB1F21A7C400D88AE9 /* Debug */,
+				F2C9F5CC1F21A7C400D88AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2F2AE411F1EE84D0034AE60 /* Build configuration list for PBXNativeTarget "给三角形添加纹理" */ = {
+		F2C9F5CD1F21A7C400D88AE9 /* Build configuration list for PBXNativeTarget "给三角形添加纹理" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2F2AE421F1EE84D0034AE60 /* Debug */,
-				F2F2AE431F1EE84D0034AE60 /* Release */,
+				F2C9F5CE1F21A7C400D88AE9 /* Debug */,
+				F2C9F5CF1F21A7C400D88AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		F2F2AE441F1EE84D0034AE60 /* Build configuration list for PBXNativeTarget "给三角形添加纹理Tests" */ = {
+		F2C9F5D01F21A7C400D88AE9 /* Build configuration list for PBXNativeTarget "给三角形添加纹理Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2F2AE451F1EE84D0034AE60 /* Debug */,
-				F2F2AE461F1EE84D0034AE60 /* Release */,
+				F2C9F5D11F21A7C400D88AE9 /* Debug */,
+				F2C9F5D21F21A7C400D88AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		F2F2AE471F1EE84D0034AE60 /* Build configuration list for PBXNativeTarget "给三角形添加纹理UITests" */ = {
+		F2C9F5D31F21A7C400D88AE9 /* Build configuration list for PBXNativeTarget "给三角形添加纹理UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2F2AE481F1EE84D0034AE60 /* Debug */,
-				F2F2AE491F1EE84D0034AE60 /* Release */,
+				F2C9F5D41F21A7C400D88AE9 /* Debug */,
+				F2C9F5D51F21A7C400D88AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F2F2AE0C1F1EE84D0034AE60 /* Project object */;
+	rootObject = F2C9F5981F21A7C400D88AE9 /* Project object */;
 }
