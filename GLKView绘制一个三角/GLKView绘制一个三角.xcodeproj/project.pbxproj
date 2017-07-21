@@ -15,6 +15,8 @@
 		F25967301F1D8DFC0007F9A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F259672E1F1D8DFC0007F9A3 /* LaunchScreen.storyboard */; };
 		F259673B1F1D8DFC0007F9A3 /* GLKView______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F259673A1F1D8DFC0007F9A3 /* GLKView______Tests.m */; };
 		F25967461F1D8DFC0007F9A3 /* GLKView______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F25967451F1D8DFC0007F9A3 /* GLKView______UITests.m */; };
+		F2C9F5DC1F21AB3D00D88AE9 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2C9F5DA1F21AB3D00D88AE9 /* leaves.gif */; };
+		F2C9F5DD1F21AB3D00D88AE9 /* for_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2C9F5DB1F21AB3D00D88AE9 /* for_test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F25967411F1D8DFC0007F9A3 /* GLKView绘制一个三角UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLKView绘制一个三角UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25967451F1D8DFC0007F9A3 /* GLKView______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GLKView______UITests.m"; sourceTree = "<group>"; };
 		F25967471F1D8DFC0007F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C9F5DA1F21AB3D00D88AE9 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
+		F2C9F5DB1F21AB3D00D88AE9 /* for_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = for_test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		F259671F1F1D8DFC0007F9A3 /* GLKView绘制一个三角 */ = {
 			isa = PBXGroup;
 			children = (
+				F2C9F5DA1F21AB3D00D88AE9 /* leaves.gif */,
+				F2C9F5DB1F21AB3D00D88AE9 /* for_test.jpg */,
 				F25967231F1D8DFC0007F9A3 /* AppDelegate.h */,
 				F25967241F1D8DFC0007F9A3 /* AppDelegate.m */,
 				F25967261F1D8DFC0007F9A3 /* ViewController.h */,
@@ -247,7 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F25967301F1D8DFC0007F9A3 /* LaunchScreen.storyboard in Resources */,
+				F2C9F5DD1F21AB3D00D88AE9 /* for_test.jpg in Resources */,
 				F259672D1F1D8DFC0007F9A3 /* Assets.xcassets in Resources */,
+				F2C9F5DC1F21AB3D00D88AE9 /* leaves.gif in Resources */,
 				F259672B1F1D8DFC0007F9A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +515,7 @@
 				F259674C1F1D8DFC0007F9A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F259674D1F1D8DFC0007F9A3 /* Build configuration list for PBXNativeTarget "GLKView绘制一个三角Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				F259674F1F1D8DFC0007F9A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F25967501F1D8DFC0007F9A3 /* Build configuration list for PBXNativeTarget "GLKView绘制一个三角UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				F25967521F1D8DFC0007F9A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

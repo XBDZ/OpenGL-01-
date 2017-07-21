@@ -29,18 +29,18 @@
     
     //设置坐标
     const GLfloat vertices[] = {
-        -0.5f, 0.5f, 0.0f,  //左上
-        -0.5f, -0.5f, 0.0f, //左下
-        0.5f, -0.5f, 0.0f,  //右下
+        0.5, -0.5, 0.0f,    1.0f, 0.0f, //右下
+        -0.5, 0.5, 0.0f,    0.0f, 1.0f, //左上
+        -0.5, -0.5, 0.0f,   0.0f, 0.0f, //左下
     };
     
     //添加着色器
-    self.baseEffect = [[GLKBaseEffect alloc] init];
-    self.baseEffect.useConstantColor = GL_TRUE;
-    self.baseEffect.constantColor = GLKVector4Make(0.4f,//red
-                                                   0.6f,//green
-                                                   0.2f,//blue
-                                                   1.0f);//alpha
+//    self.baseEffect = [[GLKBaseEffect alloc] init];
+//    self.baseEffect.useConstantColor = GL_TRUE;
+//    self.baseEffect.constantColor = GLKVector4Make(0.4f,//red
+//                                                   0.6f,//green
+//                                                   0.2f,//blue
+//                                                   1.0f);//alpha
     
     glClearColor(1.0f, 1.0f, 1.0f, 1.0f);//设置当前OpenGL ES的上下文的“清除颜色”为不透明白色
     /*
@@ -78,7 +78,18 @@
      *参数6：告诉OpenGL ES可以从当前绑定的顶点缓存的位置访问顶点数据
      */
     glVertexAttribPointer(GLKVertexAttribPosition, 3
-                          , GL_FLOAT, GL_FALSE, sizeof(GLfloat)*3, NULL);
+                          , GL_FLOAT, GL_FALSE, sizeof(GLfloat)*5, NULL);
+    
+    //设置纹理
+    CGImageRef imageRef = [[UIImage imageNamed:@"leaves.gif"] CGImage];
+    GLKTextureInfo *textureInfo = [GLKTextureLoader textureWithCGImage:imageRef options:nil error:NULL];
+    
+    glEnableVertexAttribArray(GLKVertexAttribTexCoord0);
+    glVertexAttribPointer(GLKVertexAttribTexCoord0, 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat) * 5, (GLfloat *)NULL + 3);
+    
+    self.baseEffect = [[GLKBaseEffect alloc]init];
+    self.baseEffect.texture2d0.name = textureInfo.name;
+    self.baseEffect.texture2d0.enabled = GL_TRUE;
     
 }
 
