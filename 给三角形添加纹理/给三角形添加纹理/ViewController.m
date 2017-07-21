@@ -30,19 +30,19 @@
     [EAGLContext setCurrentContext:view.context];//在任何其他的OpenGL ES配置或者渲染之前，应用的GLKview实例的上下文属性都要设置为当前
     
     //设置坐标
-    //    const GLfloat vertices[] = {
-    //        -0.5f, -0.5f, 0.0f,  0.0f, 0.0f, 1.0f,  0.0f, 0.0f,
-    //        0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  1.0f, 0.0f,
-    //        0.0f,  0.5f, 0.0f,  1.0f, 0.0f, 0.0f,  0.5f, 1.0f
-    //    };
-    
+//    const GLfloat vertices[] = {
+//        -0.5f, -0.5f, 0.0f,  0.0f, 0.0f, 1.0f,  0.0f, 0.0f,
+//        0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  1.0f, 0.0f,
+//        0.0f,  0.5f, 0.0f,  1.0f, 0.0f, 0.0f,  0.5f, 1.0f
+//    };
+ 
     const GLfloat vertices[] = {
         0.5, -0.5, 0.0f,    1.0f, 0.0f, //右下
         -0.5, 0.5, 0.0f,    0.0f, 1.0f, //左上
         -0.5, -0.5, 0.0f,   0.0f, 0.0f, //左下
     };
     glClearColor(1.0f, 1.0f, 1.0f, 1.0f);//设置当前OpenGL ES的上下文的“清除颜色”为不透明白色
-    
+  
     glGenBuffers(1, &vertexBufferID);
     glBindBuffer(GL_ARRAY_BUFFER, vertexBufferID);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
@@ -54,10 +54,10 @@
     //设置纹理
     CGImageRef imageRef = [[UIImage imageNamed:@"leaves.gif"] CGImage];
     GLKTextureInfo *textureInfo = [GLKTextureLoader textureWithCGImage:imageRef options:nil error:NULL];
-    
+
     glEnableVertexAttribArray(GLKVertexAttribTexCoord0);
     glVertexAttribPointer(GLKVertexAttribTexCoord0, 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat) * 5, (GLfloat *)NULL + 3);
-    
+   
     self.baseEffect = [[GLKBaseEffect alloc]init];
     self.baseEffect.texture2d0.name = textureInfo.name;
     self.baseEffect.texture2d0.enabled = GL_TRUE;

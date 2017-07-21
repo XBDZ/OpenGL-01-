@@ -2,7 +2,7 @@
 //  main.m
 //  给三角形添加纹理
 //
-//  Created by 苹果 on 17/7/21.
+//  Created by 苹果 on 17/7/19.
 //  Copyright © 2017年 Mr Liu. All rights reserved.
 //
 
