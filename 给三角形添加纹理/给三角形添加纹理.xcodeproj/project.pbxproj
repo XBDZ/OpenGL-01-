@@ -15,6 +15,8 @@
 		F2DAAC0B1F3569AC006456DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DAAC091F3569AC006456DA /* LaunchScreen.storyboard */; };
 		F2DAAC161F3569AC006456DA /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DAAC151F3569AC006456DA /* ________Tests.m */; };
 		F2DAAC211F3569AC006456DA /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DAAC201F3569AC006456DA /* ________UITests.m */; };
+		F2DAAC301F356A85006456DA /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2DAAC2E1F356A85006456DA /* leaves.gif */; };
+		F2DAAC311F356A85006456DA /* for_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2DAAC2F1F356A85006456DA /* for_test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F2DAAC1C1F3569AC006456DA /* 给三角形添加纹理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给三角形添加纹理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DAAC201F3569AC006456DA /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		F2DAAC221F3569AC006456DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DAAC2E1F356A85006456DA /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
+		F2DAAC2F1F356A85006456DA /* for_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = for_test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		F2DAABFA1F3569AC006456DA /* 给三角形添加纹理 */ = {
 			isa = PBXGroup;
 			children = (
+				F2DAAC2E1F356A85006456DA /* leaves.gif */,
+				F2DAAC2F1F356A85006456DA /* for_test.jpg */,
 				F2DAABFE1F3569AC006456DA /* AppDelegate.h */,
 				F2DAABFF1F3569AC006456DA /* AppDelegate.m */,
 				F2DAAC011F3569AC006456DA /* ViewController.h */,
@@ -247,7 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2DAAC0B1F3569AC006456DA /* LaunchScreen.storyboard in Resources */,
+				F2DAAC311F356A85006456DA /* for_test.jpg in Resources */,
 				F2DAAC081F3569AC006456DA /* Assets.xcassets in Resources */,
+				F2DAAC301F356A85006456DA /* leaves.gif in Resources */,
 				F2DAAC061F3569AC006456DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
