@@ -78,7 +78,7 @@
      *参数6：告诉OpenGL ES可以从当前绑定的顶点缓存的位置访问顶点数据
      */
     glVertexAttribPointer(GLKVertexAttribPosition, 3
-                          , GL_FLOAT, GL_FALSE, sizeof(GLfloat)*5, NULL);
+                          , GL_FLOAT, GL_FALSE, sizeof(GLfloat)*5, 0);
     
     //设置纹理
     CGImageRef imageRef = [[UIImage imageNamed:@"leaves.gif"] CGImage];
