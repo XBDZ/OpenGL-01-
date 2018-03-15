@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47356B47205698B1003CCB47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47356B46205698B1003CCB47 /* AppDelegate.m */; };
+		47356B4D205698B1003CCB47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47356B4B205698B1003CCB47 /* Main.storyboard */; };
+		47356B4F205698B1003CCB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47356B4E205698B1003CCB47 /* Assets.xcassets */; };
+		47356B52205698B1003CCB47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47356B50205698B1003CCB47 /* LaunchScreen.storyboard */; };
+		47356B55205698B1003CCB47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47356B54205698B1003CCB47 /* main.m */; };
+		47356B5F205698B1003CCB47 /* OpenGL_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47356B5E205698B1003CCB47 /* OpenGL_______UITests.m */; };
+		47356B70205698CA003CCB47 /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 47356B6A205698CA003CCB47 /* GLESMath.c */; };
+		47356B71205698CA003CCB47 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 47356B6D205698CA003CCB47 /* GLESUtils.m */; };
+		47356B74205698E8003CCB47 /* HBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47356B73205698E8003CCB47 /* HBView.m */; };
+		47356B7720569915003CCB47 /* HBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47356B7620569915003CCB47 /* HBViewController.m */; };
+		4736EFD92057B2B30056D284 /* shaderv.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 4736EFD82057B2B30056D284 /* shaderv.glsl */; };
+		4736EFDB2057B2C80056D284 /* shaderf.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 4736EFDA2057B2C80056D284 /* shaderf.glsl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47356B5B205698B1003CCB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47356B3A205698B1003CCB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47356B41205698B1003CCB47;
+			remoteInfo = "OpenGL-旋转的立方体";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47356B42205698B1003CCB47 /* OpenGL-旋转的立方体.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-旋转的立方体.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47356B45205698B1003CCB47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47356B46205698B1003CCB47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47356B4C205698B1003CCB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47356B4E205698B1003CCB47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47356B51205698B1003CCB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47356B53205698B1003CCB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47356B54205698B1003CCB47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47356B5A205698B1003CCB47 /* OpenGL-旋转的立方体UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-旋转的立方体UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47356B5E205698B1003CCB47 /* OpenGL_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL_______UITests.m"; sourceTree = "<group>"; };
+		47356B60205698B1003CCB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47356B6A205698CA003CCB47 /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		47356B6B205698CA003CCB47 /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		47356B6C205698CA003CCB47 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		47356B6D205698CA003CCB47 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		47356B6E205698CA003CCB47 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		47356B6F205698CA003CCB47 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		47356B72205698E8003CCB47 /* HBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBView.h; sourceTree = "<group>"; };
+		47356B73205698E8003CCB47 /* HBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBView.m; sourceTree = "<group>"; };
+		47356B7520569915003CCB47 /* HBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBViewController.h; sourceTree = "<group>"; };
+		47356B7620569915003CCB47 /* HBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBViewController.m; sourceTree = "<group>"; };
+		4736EFD82057B2B30056D284 /* shaderv.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = shaderv.glsl; sourceTree = "<group>"; };
+		4736EFDA2057B2C80056D284 /* shaderf.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = shaderf.glsl; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47356B3F205698B1003CCB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47356B57205698B1003CCB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47356B39205698B1003CCB47 = {
+			isa = PBXGroup;
+			children = (
+				47356B44205698B1003CCB47 /* OpenGL-旋转的立方体 */,
+				47356B5D205698B1003CCB47 /* OpenGL-旋转的立方体UITests */,
+				47356B43205698B1003CCB47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47356B43205698B1003CCB47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47356B42205698B1003CCB47 /* OpenGL-旋转的立方体.app */,
+				47356B5A205698B1003CCB47 /* OpenGL-旋转的立方体UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47356B44205698B1003CCB47 /* OpenGL-旋转的立方体 */ = {
+			isa = PBXGroup;
+			children = (
+				47356B45205698B1003CCB47 /* AppDelegate.h */,
+				47356B46205698B1003CCB47 /* AppDelegate.m */,
+				47356B7520569915003CCB47 /* HBViewController.h */,
+				47356B7620569915003CCB47 /* HBViewController.m */,
+				47356B72205698E8003CCB47 /* HBView.h */,
+				47356B73205698E8003CCB47 /* HBView.m */,
+				4736EFD82057B2B30056D284 /* shaderv.glsl */,
+				4736EFDA2057B2C80056D284 /* shaderf.glsl */,
+				47356B69205698CA003CCB47 /* Utils */,
+				47356B4B205698B1003CCB47 /* Main.storyboard */,
+				47356B4E205698B1003CCB47 /* Assets.xcassets */,
+				47356B50205698B1003CCB47 /* LaunchScreen.storyboard */,
+				47356B53205698B1003CCB47 /* Info.plist */,
+				47356B54205698B1003CCB47 /* main.m */,
+			);
+			path = "OpenGL-旋转的立方体";
+			sourceTree = "<group>";
+		};
+		47356B5D205698B1003CCB47 /* OpenGL-旋转的立方体UITests */ = {
+			isa = PBXGroup;
+			children = (
+				47356B5E205698B1003CCB47 /* OpenGL_______UITests.m */,
+				47356B60205698B1003CCB47 /* Info.plist */,
+			);
+			path = "OpenGL-旋转的立方体UITests";
+			sourceTree = "<group>";
+		};
+		47356B69205698CA003CCB47 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				47356B6A205698CA003CCB47 /* GLESMath.c */,
+				47356B6B205698CA003CCB47 /* GLESMath.h */,
+				47356B6C205698CA003CCB47 /* GLESUtils.h */,
+				47356B6D205698CA003CCB47 /* GLESUtils.m */,
+				47356B6E205698CA003CCB47 /* Quaternion.h */,
+				47356B6F205698CA003CCB47 /* Vector.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47356B41205698B1003CCB47 /* OpenGL-旋转的立方体 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47356B63205698B1003CCB47 /* Build configuration list for PBXNativeTarget "OpenGL-旋转的立方体" */;
+			buildPhases = (
+				47356B3E205698B1003CCB47 /* Sources */,
+				47356B3F205698B1003CCB47 /* Frameworks */,
+				47356B40205698B1003CCB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL-旋转的立方体";
+			productName = "OpenGL-旋转的立方体";
+			productReference = 47356B42205698B1003CCB47 /* OpenGL-旋转的立方体.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47356B59205698B1003CCB47 /* OpenGL-旋转的立方体UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47356B66205698B1003CCB47 /* Build configuration list for PBXNativeTarget "OpenGL-旋转的立方体UITests" */;
+			buildPhases = (
+				47356B56205698B1003CCB47 /* Sources */,
+				47356B57205698B1003CCB47 /* Frameworks */,
+				47356B58205698B1003CCB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47356B5C205698B1003CCB47 /* PBXTargetDependency */,
+			);
+			name = "OpenGL-旋转的立方体UITests";
+			productName = "OpenGL-旋转的立方体UITests";
+			productReference = 47356B5A205698B1003CCB47 /* OpenGL-旋转的立方体UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47356B3A205698B1003CCB47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Liu;
+				TargetAttributes = {
+					47356B41205698B1003CCB47 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					47356B59205698B1003CCB47 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47356B41205698B1003CCB47;
+					};
+				};
+			};
+			buildConfigurationList = 47356B3D205698B1003CCB47 /* Build configuration list for PBXProject "OpenGL-旋转的立方体" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47356B39205698B1003CCB47;
+			productRefGroup = 47356B43205698B1003CCB47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47356B41205698B1003CCB47 /* OpenGL-旋转的立方体 */,
+				47356B59205698B1003CCB47 /* OpenGL-旋转的立方体UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47356B40205698B1003CCB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47356B52205698B1003CCB47 /* LaunchScreen.storyboard in Resources */,
+				4736EFD92057B2B30056D284 /* shaderv.glsl in Resources */,
+				47356B4F205698B1003CCB47 /* Assets.xcassets in Resources */,
+				47356B4D205698B1003CCB47 /* Main.storyboard in Resources */,
+				4736EFDB2057B2C80056D284 /* shaderf.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47356B58205698B1003CCB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47356B3E205698B1003CCB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47356B7720569915003CCB47 /* HBViewController.m in Sources */,
+				47356B70205698CA003CCB47 /* GLESMath.c in Sources */,
+				47356B71205698CA003CCB47 /* GLESUtils.m in Sources */,
+				47356B55205698B1003CCB47 /* main.m in Sources */,
+				47356B47205698B1003CCB47 /* AppDelegate.m in Sources */,
+				47356B74205698E8003CCB47 /* HBView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47356B56205698B1003CCB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47356B5F205698B1003CCB47 /* OpenGL_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47356B5C205698B1003CCB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47356B41205698B1003CCB47 /* OpenGL-旋转的立方体 */;
+			targetProxy = 47356B5B205698B1003CCB47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47356B4B205698B1003CCB47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47356B4C205698B1003CCB47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47356B50205698B1003CCB47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47356B51205698B1003CCB47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47356B61205698B1003CCB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47356B62205698B1003CCB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47356B64205698B1003CCB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OpenGL-旋转的立方体/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.com.OpenGL-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47356B65205698B1003CCB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OpenGL-旋转的立方体/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.com.OpenGL-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47356B67205698B1003CCB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OpenGL-旋转的立方体UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.com.OpenGL-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGL-旋转的立方体";
+			};
+			name = Debug;
+		};
+		47356B68205698B1003CCB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OpenGL-旋转的立方体UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liu.com.OpenGL-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGL-旋转的立方体";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47356B3D205698B1003CCB47 /* Build configuration list for PBXProject "OpenGL-旋转的立方体" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47356B61205698B1003CCB47 /* Debug */,
+				47356B62205698B1003CCB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47356B63205698B1003CCB47 /* Build configuration list for PBXNativeTarget "OpenGL-旋转的立方体" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47356B64205698B1003CCB47 /* Debug */,
+				47356B65205698B1003CCB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47356B66205698B1003CCB47 /* Build configuration list for PBXNativeTarget "OpenGL-旋转的立方体UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47356B67205698B1003CCB47 /* Debug */,
+				47356B68205698B1003CCB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47356B3A205698B1003CCB47 /* Project object */;
+}
